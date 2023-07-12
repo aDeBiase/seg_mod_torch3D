@@ -1,0 +1,145 @@
+2022-10-26 18:20:27,121 INFO    MainThread:20542 [internal.py:wandb_internal():93] W&B internal server running at pid: 20542, started at: 2022-10-26 18:20:27.120168
+2022-10-26 18:20:27,125 INFO    WriterThread:20542 [datastore.py:open_for_write():75] open: /data/p302386/hecktor/monai_model/seg_mod_torch3D/wandb/run-20221026_182025-2pjxnimx/run-2pjxnimx.wandb
+2022-10-26 18:20:27,131 DEBUG   SenderThread:20542 [sender.py:send():236] send: header
+2022-10-26 18:20:27,132 DEBUG   SenderThread:20542 [sender.py:send():236] send: run
+2022-10-26 18:20:27,356 DEBUG   HandlerThread:20542 [handler.py:handle_request():140] handle_request: check_version
+2022-10-26 18:20:27,365 INFO    SenderThread:20542 [dir_watcher.py:__init__():216] watching files in: /data/p302386/hecktor/monai_model/seg_mod_torch3D/wandb/run-20221026_182025-2pjxnimx/files
+2022-10-26 18:20:27,365 INFO    SenderThread:20542 [sender.py:_start_run_threads():818] run started: 2pjxnimx with start time 1666801225
+2022-10-26 18:20:27,365 DEBUG   SenderThread:20542 [sender.py:send():236] send: summary
+2022-10-26 18:20:27,368 INFO    SenderThread:20542 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-10-26 18:20:27,368 DEBUG   SenderThread:20542 [sender.py:send_request():250] send_request: check_version
+2022-10-26 18:20:27,436 DEBUG   HandlerThread:20542 [handler.py:handle_request():140] handle_request: run_start
+2022-10-26 18:20:27,437 DEBUG   HandlerThread:20542 [meta.py:__init__():35] meta init
+2022-10-26 18:20:27,437 DEBUG   HandlerThread:20542 [meta.py:__init__():49] meta init done
+2022-10-26 18:20:27,437 DEBUG   HandlerThread:20542 [meta.py:probe():209] probe
+2022-10-26 18:20:27,442 DEBUG   HandlerThread:20542 [meta.py:_setup_git():199] setup git
+2022-10-26 18:20:27,480 DEBUG   HandlerThread:20542 [meta.py:_setup_git():206] setup git done
+2022-10-26 18:20:27,480 DEBUG   HandlerThread:20542 [meta.py:_save_pip():53] save pip
+2022-10-26 18:20:27,483 DEBUG   HandlerThread:20542 [meta.py:_save_pip():67] save pip done
+2022-10-26 18:20:27,483 DEBUG   HandlerThread:20542 [meta.py:probe():247] probe done
+2022-10-26 18:20:27,567 DEBUG   SenderThread:20542 [sender.py:send():236] send: files
+2022-10-26 18:20:27,567 INFO    SenderThread:20542 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2022-10-26 18:20:27,580 DEBUG   HandlerThread:20542 [handler.py:handle_request():140] handle_request: stop_status
+2022-10-26 18:20:27,581 DEBUG   SenderThread:20542 [sender.py:send_request():250] send_request: stop_status
+2022-10-26 18:20:27,727 DEBUG   SenderThread:20542 [sender.py:send():236] send: telemetry
+2022-10-26 18:20:28,113 INFO    Thread-11 :20542 [upload_job.py:push():138] Uploaded file /local/tmp/tmp9011u6lhwandb/fby5p9cq-wandb-metadata.json
+2022-10-26 18:20:28,371 INFO    Thread-7  :20542 [dir_watcher.py:_on_file_created():269] file/dir created: /data/p302386/hecktor/monai_model/seg_mod_torch3D/wandb/run-20221026_182025-2pjxnimx/files/wandb-summary.json
+2022-10-26 18:20:28,372 INFO    Thread-7  :20542 [dir_watcher.py:_on_file_created():269] file/dir created: /data/p302386/hecktor/monai_model/seg_mod_torch3D/wandb/run-20221026_182025-2pjxnimx/files/output.log
+2022-10-26 18:20:28,372 INFO    Thread-7  :20542 [dir_watcher.py:_on_file_created():269] file/dir created: /data/p302386/hecktor/monai_model/seg_mod_torch3D/wandb/run-20221026_182025-2pjxnimx/files/wandb-metadata.json
+2022-10-26 18:20:28,372 INFO    Thread-7  :20542 [dir_watcher.py:_on_file_created():269] file/dir created: /data/p302386/hecktor/monai_model/seg_mod_torch3D/wandb/run-20221026_182025-2pjxnimx/files/requirements.txt
+2022-10-26 18:20:30,369 INFO    Thread-7  :20542 [dir_watcher.py:_on_file_modified():286] file/dir modified: /data/p302386/hecktor/monai_model/seg_mod_torch3D/wandb/run-20221026_182025-2pjxnimx/files/output.log
+2022-10-26 18:20:32,371 INFO    Thread-7  :20542 [dir_watcher.py:_on_file_modified():286] file/dir modified: /data/p302386/hecktor/monai_model/seg_mod_torch3D/wandb/run-20221026_182025-2pjxnimx/files/output.log
+2022-10-26 18:20:32,619 DEBUG   SenderThread:20542 [sender.py:send():236] send: telemetry
+2022-10-26 18:20:32,626 DEBUG   SenderThread:20542 [sender.py:send():236] send: telemetry
+2022-10-26 18:20:34,374 INFO    Thread-7  :20542 [dir_watcher.py:_on_file_modified():286] file/dir modified: /data/p302386/hecktor/monai_model/seg_mod_torch3D/wandb/run-20221026_182025-2pjxnimx/files/output.log
+2022-10-26 18:20:35,131 DEBUG   SenderThread:20542 [sender.py:send():236] send: exit
+2022-10-26 18:20:35,131 DEBUG   HandlerThread:20542 [handler.py:handle_request():140] handle_request: poll_exit
+2022-10-26 18:20:35,131 INFO    SenderThread:20542 [sender.py:send_exit():372] handling exit code: 1
+2022-10-26 18:20:35,132 INFO    SenderThread:20542 [sender.py:send_exit():374] handling runtime: 7
+2022-10-26 18:20:35,134 INFO    SenderThread:20542 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-10-26 18:20:35,135 INFO    SenderThread:20542 [sender.py:send_exit():380] send defer
+2022-10-26 18:20:35,135 DEBUG   SenderThread:20542 [sender.py:send_request():250] send_request: poll_exit
+2022-10-26 18:20:35,136 DEBUG   HandlerThread:20542 [handler.py:handle_request():140] handle_request: defer
+2022-10-26 18:20:35,136 INFO    HandlerThread:20542 [handler.py:handle_request_defer():163] handle defer: 0
+2022-10-26 18:20:35,137 DEBUG   SenderThread:20542 [sender.py:send_request():250] send_request: defer
+2022-10-26 18:20:35,137 INFO    SenderThread:20542 [sender.py:send_request_defer():389] handle sender defer: 0
+2022-10-26 18:20:35,137 INFO    SenderThread:20542 [sender.py:transition_state():393] send defer: 1
+2022-10-26 18:20:35,138 DEBUG   HandlerThread:20542 [handler.py:handle_request():140] handle_request: defer
+2022-10-26 18:20:35,138 INFO    HandlerThread:20542 [handler.py:handle_request_defer():163] handle defer: 1
+2022-10-26 18:20:35,166 DEBUG   SenderThread:20542 [sender.py:send_request():250] send_request: defer
+2022-10-26 18:20:35,166 INFO    SenderThread:20542 [sender.py:send_request_defer():389] handle sender defer: 1
+2022-10-26 18:20:35,166 INFO    SenderThread:20542 [sender.py:transition_state():393] send defer: 2
+2022-10-26 18:20:35,167 DEBUG   SenderThread:20542 [sender.py:send():236] send: stats
+2022-10-26 18:20:35,168 DEBUG   HandlerThread:20542 [handler.py:handle_request():140] handle_request: defer
+2022-10-26 18:20:35,168 INFO    HandlerThread:20542 [handler.py:handle_request_defer():163] handle defer: 2
+2022-10-26 18:20:35,168 DEBUG   SenderThread:20542 [sender.py:send_request():250] send_request: defer
+2022-10-26 18:20:35,169 INFO    SenderThread:20542 [sender.py:send_request_defer():389] handle sender defer: 2
+2022-10-26 18:20:35,169 INFO    SenderThread:20542 [sender.py:transition_state():393] send defer: 3
+2022-10-26 18:20:35,169 DEBUG   HandlerThread:20542 [handler.py:handle_request():140] handle_request: defer
+2022-10-26 18:20:35,170 INFO    HandlerThread:20542 [handler.py:handle_request_defer():163] handle defer: 3
+2022-10-26 18:20:35,170 DEBUG   SenderThread:20542 [sender.py:send_request():250] send_request: defer
+2022-10-26 18:20:35,170 INFO    SenderThread:20542 [sender.py:send_request_defer():389] handle sender defer: 3
+2022-10-26 18:20:35,171 INFO    SenderThread:20542 [sender.py:transition_state():393] send defer: 4
+2022-10-26 18:20:35,171 DEBUG   HandlerThread:20542 [handler.py:handle_request():140] handle_request: defer
+2022-10-26 18:20:35,171 INFO    HandlerThread:20542 [handler.py:handle_request_defer():163] handle defer: 4
+2022-10-26 18:20:35,172 DEBUG   SenderThread:20542 [sender.py:send():236] send: summary
+2022-10-26 18:20:35,174 INFO    SenderThread:20542 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-10-26 18:20:35,175 DEBUG   SenderThread:20542 [sender.py:send_request():250] send_request: defer
+2022-10-26 18:20:35,175 INFO    SenderThread:20542 [sender.py:send_request_defer():389] handle sender defer: 4
+2022-10-26 18:20:35,175 INFO    SenderThread:20542 [sender.py:transition_state():393] send defer: 5
+2022-10-26 18:20:35,176 DEBUG   HandlerThread:20542 [handler.py:handle_request():140] handle_request: defer
+2022-10-26 18:20:35,176 INFO    HandlerThread:20542 [handler.py:handle_request_defer():163] handle defer: 5
+2022-10-26 18:20:35,176 DEBUG   SenderThread:20542 [sender.py:send_request():250] send_request: defer
+2022-10-26 18:20:35,177 INFO    SenderThread:20542 [sender.py:send_request_defer():389] handle sender defer: 5
+2022-10-26 18:20:35,238 DEBUG   HandlerThread:20542 [handler.py:handle_request():140] handle_request: poll_exit
+2022-10-26 18:20:35,379 INFO    SenderThread:20542 [sender.py:transition_state():393] send defer: 6
+2022-10-26 18:20:35,379 DEBUG   SenderThread:20542 [sender.py:send_request():250] send_request: poll_exit
+2022-10-26 18:20:35,380 INFO    Thread-7  :20542 [dir_watcher.py:_on_file_modified():286] file/dir modified: /data/p302386/hecktor/monai_model/seg_mod_torch3D/wandb/run-20221026_182025-2pjxnimx/files/wandb-summary.json
+2022-10-26 18:20:35,381 DEBUG   HandlerThread:20542 [handler.py:handle_request():140] handle_request: defer
+2022-10-26 18:20:35,381 INFO    Thread-7  :20542 [dir_watcher.py:_on_file_modified():286] file/dir modified: /data/p302386/hecktor/monai_model/seg_mod_torch3D/wandb/run-20221026_182025-2pjxnimx/files/output.log
+2022-10-26 18:20:35,381 INFO    HandlerThread:20542 [handler.py:handle_request_defer():163] handle defer: 6
+2022-10-26 18:20:35,382 INFO    Thread-7  :20542 [dir_watcher.py:_on_file_modified():286] file/dir modified: /data/p302386/hecktor/monai_model/seg_mod_torch3D/wandb/run-20221026_182025-2pjxnimx/files/config.yaml
+2022-10-26 18:20:35,382 DEBUG   SenderThread:20542 [sender.py:send_request():250] send_request: defer
+2022-10-26 18:20:35,383 INFO    SenderThread:20542 [sender.py:send_request_defer():389] handle sender defer: 6
+2022-10-26 18:20:35,383 INFO    SenderThread:20542 [dir_watcher.py:finish():353] shutting down directory watcher
+2022-10-26 18:20:35,482 DEBUG   HandlerThread:20542 [handler.py:handle_request():140] handle_request: poll_exit
+2022-10-26 18:20:36,384 INFO    SenderThread:20542 [dir_watcher.py:finish():383] scan: /data/p302386/hecktor/monai_model/seg_mod_torch3D/wandb/run-20221026_182025-2pjxnimx/files
+2022-10-26 18:20:36,385 INFO    SenderThread:20542 [dir_watcher.py:finish():397] scan save: /data/p302386/hecktor/monai_model/seg_mod_torch3D/wandb/run-20221026_182025-2pjxnimx/files/requirements.txt requirements.txt
+2022-10-26 18:20:36,385 INFO    SenderThread:20542 [dir_watcher.py:finish():397] scan save: /data/p302386/hecktor/monai_model/seg_mod_torch3D/wandb/run-20221026_182025-2pjxnimx/files/output.log output.log
+2022-10-26 18:20:36,394 INFO    SenderThread:20542 [dir_watcher.py:finish():397] scan save: /data/p302386/hecktor/monai_model/seg_mod_torch3D/wandb/run-20221026_182025-2pjxnimx/files/wandb-summary.json wandb-summary.json
+2022-10-26 18:20:36,405 INFO    SenderThread:20542 [dir_watcher.py:finish():397] scan save: /data/p302386/hecktor/monai_model/seg_mod_torch3D/wandb/run-20221026_182025-2pjxnimx/files/wandb-metadata.json wandb-metadata.json
+2022-10-26 18:20:36,405 INFO    SenderThread:20542 [dir_watcher.py:finish():397] scan save: /data/p302386/hecktor/monai_model/seg_mod_torch3D/wandb/run-20221026_182025-2pjxnimx/files/config.yaml config.yaml
+2022-10-26 18:20:36,415 INFO    SenderThread:20542 [sender.py:transition_state():393] send defer: 7
+2022-10-26 18:20:36,416 DEBUG   SenderThread:20542 [sender.py:send_request():250] send_request: poll_exit
+2022-10-26 18:20:36,425 DEBUG   HandlerThread:20542 [handler.py:handle_request():140] handle_request: defer
+2022-10-26 18:20:36,426 INFO    HandlerThread:20542 [handler.py:handle_request_defer():163] handle defer: 7
+2022-10-26 18:20:36,427 DEBUG   SenderThread:20542 [sender.py:send_request():250] send_request: defer
+2022-10-26 18:20:36,427 INFO    SenderThread:20542 [sender.py:send_request_defer():389] handle sender defer: 7
+2022-10-26 18:20:36,427 INFO    SenderThread:20542 [file_pusher.py:finish():171] shutting down file pusher
+2022-10-26 18:20:36,519 DEBUG   HandlerThread:20542 [handler.py:handle_request():140] handle_request: poll_exit
+2022-10-26 18:20:36,519 DEBUG   SenderThread:20542 [sender.py:send_request():250] send_request: poll_exit
+2022-10-26 18:20:36,621 DEBUG   HandlerThread:20542 [handler.py:handle_request():140] handle_request: poll_exit
+2022-10-26 18:20:36,621 DEBUG   SenderThread:20542 [sender.py:send_request():250] send_request: poll_exit
+2022-10-26 18:20:36,723 DEBUG   HandlerThread:20542 [handler.py:handle_request():140] handle_request: poll_exit
+2022-10-26 18:20:36,724 DEBUG   SenderThread:20542 [sender.py:send_request():250] send_request: poll_exit
+2022-10-26 18:20:36,825 DEBUG   HandlerThread:20542 [handler.py:handle_request():140] handle_request: poll_exit
+2022-10-26 18:20:36,826 DEBUG   SenderThread:20542 [sender.py:send_request():250] send_request: poll_exit
+2022-10-26 18:20:36,885 INFO    Thread-13 :20542 [upload_job.py:push():138] Uploaded file /data/p302386/hecktor/monai_model/seg_mod_torch3D/wandb/run-20221026_182025-2pjxnimx/files/output.log
+2022-10-26 18:20:36,894 INFO    Thread-12 :20542 [upload_job.py:push():138] Uploaded file /data/p302386/hecktor/monai_model/seg_mod_torch3D/wandb/run-20221026_182025-2pjxnimx/files/requirements.txt
+2022-10-26 18:20:36,905 INFO    Thread-15 :20542 [upload_job.py:push():138] Uploaded file /data/p302386/hecktor/monai_model/seg_mod_torch3D/wandb/run-20221026_182025-2pjxnimx/files/config.yaml
+2022-10-26 18:20:36,921 INFO    Thread-14 :20542 [upload_job.py:push():138] Uploaded file /data/p302386/hecktor/monai_model/seg_mod_torch3D/wandb/run-20221026_182025-2pjxnimx/files/wandb-summary.json
+2022-10-26 18:20:36,928 DEBUG   HandlerThread:20542 [handler.py:handle_request():140] handle_request: poll_exit
+2022-10-26 18:20:36,928 DEBUG   SenderThread:20542 [sender.py:send_request():250] send_request: poll_exit
+2022-10-26 18:20:37,030 DEBUG   HandlerThread:20542 [handler.py:handle_request():140] handle_request: poll_exit
+2022-10-26 18:20:37,031 DEBUG   SenderThread:20542 [sender.py:send_request():250] send_request: poll_exit
+2022-10-26 18:20:37,121 INFO    Thread-6  :20542 [sender.py:transition_state():393] send defer: 8
+2022-10-26 18:20:37,122 DEBUG   HandlerThread:20542 [handler.py:handle_request():140] handle_request: defer
+2022-10-26 18:20:37,122 INFO    HandlerThread:20542 [handler.py:handle_request_defer():163] handle defer: 8
+2022-10-26 18:20:37,123 DEBUG   SenderThread:20542 [sender.py:send_request():250] send_request: defer
+2022-10-26 18:20:37,123 INFO    SenderThread:20542 [sender.py:send_request_defer():389] handle sender defer: 8
+2022-10-26 18:20:37,132 DEBUG   HandlerThread:20542 [handler.py:handle_request():140] handle_request: poll_exit
+2022-10-26 18:20:37,303 INFO    SenderThread:20542 [sender.py:transition_state():393] send defer: 9
+2022-10-26 18:20:37,304 DEBUG   SenderThread:20542 [sender.py:send_request():250] send_request: poll_exit
+2022-10-26 18:20:37,305 DEBUG   HandlerThread:20542 [handler.py:handle_request():140] handle_request: defer
+2022-10-26 18:20:37,305 INFO    HandlerThread:20542 [handler.py:handle_request_defer():163] handle defer: 9
+2022-10-26 18:20:37,306 DEBUG   SenderThread:20542 [sender.py:send_request():250] send_request: defer
+2022-10-26 18:20:37,306 INFO    SenderThread:20542 [sender.py:send_request_defer():389] handle sender defer: 9
+2022-10-26 18:20:37,306 INFO    SenderThread:20542 [sender.py:transition_state():393] send defer: 10
+2022-10-26 18:20:37,307 DEBUG   HandlerThread:20542 [handler.py:handle_request():140] handle_request: defer
+2022-10-26 18:20:37,308 DEBUG   SenderThread:20542 [sender.py:send():236] send: final
+2022-10-26 18:20:37,308 INFO    HandlerThread:20542 [handler.py:handle_request_defer():163] handle defer: 10
+2022-10-26 18:20:37,308 DEBUG   SenderThread:20542 [sender.py:send():236] send: footer
+2022-10-26 18:20:37,309 DEBUG   SenderThread:20542 [sender.py:send_request():250] send_request: defer
+2022-10-26 18:20:37,309 INFO    SenderThread:20542 [sender.py:send_request_defer():389] handle sender defer: 10
+2022-10-26 18:20:37,406 DEBUG   HandlerThread:20542 [handler.py:handle_request():140] handle_request: poll_exit
+2022-10-26 18:20:37,406 DEBUG   SenderThread:20542 [sender.py:send_request():250] send_request: poll_exit
+2022-10-26 18:20:37,407 INFO    SenderThread:20542 [file_pusher.py:join():176] waiting for file pusher
+2022-10-26 18:20:37,817 DEBUG   HandlerThread:20542 [handler.py:handle_request():140] handle_request: sampled_history
+2022-10-26 18:20:37,819 DEBUG   HandlerThread:20542 [handler.py:handle_request():140] handle_request: get_summary
+2022-10-26 18:20:37,820 DEBUG   HandlerThread:20542 [handler.py:handle_request():140] handle_request: shutdown
+2022-10-26 18:20:37,820 INFO    HandlerThread:20542 [handler.py:finish():806] shutting down handler
+2022-10-26 18:20:38,308 INFO    WriterThread:20542 [datastore.py:close():279] close: /data/p302386/hecktor/monai_model/seg_mod_torch3D/wandb/run-20221026_182025-2pjxnimx/run-2pjxnimx.wandb
+2022-10-26 18:20:38,716 INFO    SenderThread:20542 [sender.py:finish():1114] shutting down sender
+2022-10-26 18:20:38,716 INFO    SenderThread:20542 [file_pusher.py:finish():171] shutting down file pusher
+2022-10-26 18:20:38,717 INFO    SenderThread:20542 [file_pusher.py:join():176] waiting for file pusher
+2022-10-26 18:20:38,720 INFO    MainThread:20542 [internal.py:handle_exit():80] Internal process exited

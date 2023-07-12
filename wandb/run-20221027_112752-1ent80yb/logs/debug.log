@@ -1,0 +1,26 @@
+2022-10-27 11:27:52,072 INFO    MainThread:5707 [wandb_setup.py:_flush():76] Configure stats pid to 5707
+2022-10-27 11:27:52,075 INFO    MainThread:5707 [wandb_setup.py:_flush():76] Loading settings from /home/p302386/.config/wandb/settings
+2022-10-27 11:27:52,075 INFO    MainThread:5707 [wandb_setup.py:_flush():76] Loading settings from /data/p302386/hecktor/monai_model/seg_mod_torch3D/wandb/settings
+2022-10-27 11:27:52,075 INFO    MainThread:5707 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-10-27 11:27:52,075 INFO    MainThread:5707 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'monai_model/seg_mod_torch3D/main.py', 'program': 'main.py'}
+2022-10-27 11:27:52,075 INFO    MainThread:5707 [wandb_init.py:_log_setup():461] Logging user logs to /data/p302386/hecktor/monai_model/seg_mod_torch3D/wandb/run-20221027_112752-1ent80yb/logs/debug.log
+2022-10-27 11:27:52,075 INFO    MainThread:5707 [wandb_init.py:_log_setup():462] Logging internal logs to /data/p302386/hecktor/monai_model/seg_mod_torch3D/wandb/run-20221027_112752-1ent80yb/logs/debug-internal.log
+2022-10-27 11:27:52,076 INFO    MainThread:5707 [wandb_init.py:init():495] calling init triggers
+2022-10-27 11:27:52,076 INFO    MainThread:5707 [wandb_init.py:init():499] wandb.init called with sweep_config: {}
+config: {'experiment_dir': '/data/p302386/hecktor/monai_model/experiment_1_new/', 'output_dir': './z_1', 'split_file': './split_train/image_split_z1.json', 'data_folder': PosixPath('/data/p302386/hecktor/umcg_data/UMCG_14_17_resampled'), 'checkpoint_dir': './checkpoint', 'sample_dir': './sample', 'test_dir': './test', 'model_type': 'BILSTM_SC_UNET', 'direction': 'z', 'input_nc': 2, 'output_nc': 1, 'fine_size': 144, 'seq_size': 3, 'encoder_type': 'VGG16_mini_SE', 'loss_type': 'soft_dice', 'optimizer': 'Adam', 'lr': 0.0002, 'batch_size': 1, 'epoch': 150, 'epoch_step': 10, 'ngf': 64, 'phase': 'train', 'continue_train': False, 'load_checkpoint': 'best_dice2', 'save_freq': 2000, 'num_workers': 2}
+2022-10-27 11:27:52,076 INFO    MainThread:5707 [wandb_init.py:init():548] starting backend
+2022-10-27 11:27:52,076 INFO    MainThread:5707 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-10-27 11:27:52,133 INFO    MainThread:5707 [backend.py:ensure_launched():217] starting backend process...
+2022-10-27 11:27:52,179 INFO    MainThread:5707 [backend.py:ensure_launched():222] started backend process with pid: 5888
+2022-10-27 11:27:52,182 INFO    MainThread:5707 [wandb_init.py:init():558] backend started and connected
+2022-10-27 11:27:52,200 INFO    MainThread:5707 [wandb_init.py:init():634] updated telemetry
+2022-10-27 11:27:52,382 INFO    MainThread:5707 [wandb_init.py:init():666] communicating run to backend with 30 second timeout
+2022-10-27 11:27:54,996 INFO    MainThread:5707 [wandb_run.py:_on_init():1919] communicating current version
+2022-10-27 11:27:55,072 INFO    MainThread:5707 [wandb_run.py:_on_init():1923] got version response upgrade_message: "wandb version 0.13.4 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-10-27 11:27:55,072 INFO    MainThread:5707 [wandb_init.py:init():700] starting run threads in backend
+2022-10-27 11:27:55,322 INFO    MainThread:5707 [wandb_run.py:_console_start():1893] atexit reg
+2022-10-27 11:27:55,332 INFO    MainThread:5707 [wandb_run.py:_redirect():1766] redirect: SettingsConsole.REDIRECT
+2022-10-27 11:27:55,334 INFO    MainThread:5707 [wandb_run.py:_redirect():1771] Redirecting console.
+2022-10-27 11:27:55,339 INFO    MainThread:5707 [wandb_run.py:_redirect():1827] Redirects installed.
+2022-10-27 11:27:55,340 INFO    MainThread:5707 [wandb_init.py:init():732] run started, returning control to user process

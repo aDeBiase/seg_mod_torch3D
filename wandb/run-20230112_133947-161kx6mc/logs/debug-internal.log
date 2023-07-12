@@ -1,0 +1,35 @@
+2023-01-12 13:39:49,395 INFO    MainThread:23951 [internal.py:wandb_internal():93] W&B internal server running at pid: 23951, started at: 2023-01-12 13:39:49.393683
+2023-01-12 13:39:49,399 INFO    WriterThread:23951 [datastore.py:open_for_write():75] open: /data/p302386/hecktor/monai_model/seg_mod_torch3D/wandb/run-20230112_133947-161kx6mc/run-161kx6mc.wandb
+2023-01-12 13:39:49,406 DEBUG   SenderThread:23951 [sender.py:send():236] send: header
+2023-01-12 13:39:49,406 DEBUG   SenderThread:23951 [sender.py:send():236] send: run
+2023-01-12 13:39:49,637 DEBUG   HandlerThread:23951 [handler.py:handle_request():140] handle_request: check_version
+2023-01-12 13:39:49,640 INFO    SenderThread:23951 [dir_watcher.py:__init__():216] watching files in: /data/p302386/hecktor/monai_model/seg_mod_torch3D/wandb/run-20230112_133947-161kx6mc/files
+2023-01-12 13:39:49,641 INFO    SenderThread:23951 [sender.py:_start_run_threads():818] run started: 161kx6mc with start time 1673527187
+2023-01-12 13:39:49,641 DEBUG   SenderThread:23951 [sender.py:send():236] send: summary
+2023-01-12 13:39:49,643 INFO    SenderThread:23951 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-01-12 13:39:49,644 DEBUG   SenderThread:23951 [sender.py:send_request():250] send_request: check_version
+2023-01-12 13:39:49,712 DEBUG   HandlerThread:23951 [handler.py:handle_request():140] handle_request: run_start
+2023-01-12 13:39:49,713 DEBUG   HandlerThread:23951 [meta.py:__init__():35] meta init
+2023-01-12 13:39:49,713 DEBUG   HandlerThread:23951 [meta.py:__init__():49] meta init done
+2023-01-12 13:39:49,714 DEBUG   HandlerThread:23951 [meta.py:probe():209] probe
+2023-01-12 13:39:49,718 DEBUG   HandlerThread:23951 [meta.py:_setup_git():199] setup git
+2023-01-12 13:39:49,758 DEBUG   HandlerThread:23951 [meta.py:_setup_git():206] setup git done
+2023-01-12 13:39:49,759 DEBUG   HandlerThread:23951 [meta.py:_save_pip():53] save pip
+2023-01-12 13:39:49,761 DEBUG   HandlerThread:23951 [meta.py:_save_pip():67] save pip done
+2023-01-12 13:39:49,761 DEBUG   HandlerThread:23951 [meta.py:probe():247] probe done
+2023-01-12 13:39:49,860 DEBUG   SenderThread:23951 [sender.py:send():236] send: files
+2023-01-12 13:39:49,860 INFO    SenderThread:23951 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2023-01-12 13:39:49,875 DEBUG   HandlerThread:23951 [handler.py:handle_request():140] handle_request: stop_status
+2023-01-12 13:39:49,876 DEBUG   SenderThread:23951 [sender.py:send_request():250] send_request: stop_status
+2023-01-12 13:39:50,028 DEBUG   SenderThread:23951 [sender.py:send():236] send: telemetry
+2023-01-12 13:39:50,383 INFO    Thread-11 :23951 [upload_job.py:push():138] Uploaded file /local/tmp/tmpof_f2eaawandb/3kkd1xby-wandb-metadata.json
+2023-01-12 13:39:50,647 INFO    Thread-7  :23951 [dir_watcher.py:_on_file_created():269] file/dir created: /data/p302386/hecktor/monai_model/seg_mod_torch3D/wandb/run-20230112_133947-161kx6mc/files/wandb-summary.json
+2023-01-12 13:39:50,647 INFO    Thread-7  :23951 [dir_watcher.py:_on_file_created():269] file/dir created: /data/p302386/hecktor/monai_model/seg_mod_torch3D/wandb/run-20230112_133947-161kx6mc/files/output.log
+2023-01-12 13:39:50,648 INFO    Thread-7  :23951 [dir_watcher.py:_on_file_created():269] file/dir created: /data/p302386/hecktor/monai_model/seg_mod_torch3D/wandb/run-20230112_133947-161kx6mc/files/wandb-metadata.json
+2023-01-12 13:39:50,648 INFO    Thread-7  :23951 [dir_watcher.py:_on_file_created():269] file/dir created: /data/p302386/hecktor/monai_model/seg_mod_torch3D/wandb/run-20230112_133947-161kx6mc/files/requirements.txt
+2023-01-12 13:39:52,645 INFO    Thread-7  :23951 [dir_watcher.py:_on_file_modified():286] file/dir modified: /data/p302386/hecktor/monai_model/seg_mod_torch3D/wandb/run-20230112_133947-161kx6mc/files/output.log
+2023-01-12 13:39:54,647 INFO    Thread-7  :23951 [dir_watcher.py:_on_file_modified():286] file/dir modified: /data/p302386/hecktor/monai_model/seg_mod_torch3D/wandb/run-20230112_133947-161kx6mc/files/output.log
+2023-01-12 13:39:56,650 INFO    Thread-7  :23951 [dir_watcher.py:_on_file_modified():286] file/dir modified: /data/p302386/hecktor/monai_model/seg_mod_torch3D/wandb/run-20230112_133947-161kx6mc/files/output.log
+2023-01-12 13:40:04,658 INFO    Thread-7  :23951 [dir_watcher.py:_on_file_modified():286] file/dir modified: /data/p302386/hecktor/monai_model/seg_mod_torch3D/wandb/run-20230112_133947-161kx6mc/files/output.log
+2023-01-12 13:40:05,031 DEBUG   HandlerThread:23951 [handler.py:handle_request():140] handle_request: stop_status
+2023-01-12 13:40:05,031 DEBUG   SenderThread:23951 [sender.py:send_request():250] send_request: stop_status

@@ -1,0 +1,27 @@
+{
+    "os": "Linux-3.10.0-1160.49.1.el7.x86_64-x86_64-with-centos-7.9.2009-Core",
+    "python": "3.7.4",
+    "heartbeatAt": "2023-01-12T18:15:11.475687",
+    "startedAt": "2023-01-12T18:15:08.717320",
+    "docker": null,
+    "gpu": "GRID V100D-32Q",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "--path=/data/p302386/hecktor/monai_model/experiment_lynph_0/config_file.yaml",
+        "--path_data=/data/p302386/hecktor/umcg_data/UMCG_automseg_lymph/"
+    ],
+    "state": "running",
+    "program": "main_lymph.py",
+    "codePath": "monai_model/seg_mod_torch3D/main_lymph.py",
+    "git": {
+        "remote": "https://github.com/aDeBiase/srcmodel",
+        "commit": "7f3e0852ac0ea53756ebfda877bab4cf4b764907"
+    },
+    "email": "a.de.biase@umcg.nl",
+    "root": "/data/p302386/hecktor",
+    "host": "pg-gpu22",
+    "username": "p302386",
+    "executable": "/data/p302386/.envs/monai_env/bin/python"
+}

@@ -1,0 +1,106 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.21
+    framework: huggingface
+    huggingface_version: 4.16.2
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.7.4
+    start_time: 1673527073
+    t:
+      1:
+      - 1
+      - 10
+      - 11
+      - 41
+      - 48
+      - 49
+      - 55
+      3:
+      - 16
+      4: 3.7.4
+      5: 0.12.21
+      6: 4.16.2
+      8:
+      - 5
+batch_size:
+  desc: null
+  value: 1
+checkpoint_dir:
+  desc: null
+  value: ./checkpoint
+continue_train:
+  desc: null
+  value: false
+data_folder:
+  desc: null
+  value: /data/p302386/hecktor/umcg_data/UMCG_automseg_lymph
+direction:
+  desc: null
+  value: x
+encoder_type:
+  desc: null
+  value: VGG16_mini_SE
+epoch:
+  desc: null
+  value: 150
+epoch_step:
+  desc: null
+  value: 10
+experiment_dir:
+  desc: null
+  value: /data/p302386/hecktor/monai_model/experiment_lynph_0/
+fine_size:
+  desc: null
+  value: 144
+input_nc:
+  desc: null
+  value: 2
+load_checkpoint:
+  desc: null
+  value: last
+loss_type:
+  desc: null
+  value: soft_dice
+lr:
+  desc: null
+  value: 0.001
+model_type:
+  desc: null
+  value: BILSTM_SC_UNET
+ngf:
+  desc: null
+  value: 64
+num_workers:
+  desc: null
+  value: 2
+optimizer:
+  desc: null
+  value: Adam
+output_dir:
+  desc: null
+  value: .
+output_nc:
+  desc: null
+  value: 1
+phase:
+  desc: null
+  value: train
+sample_dir:
+  desc: null
+  value: ./sample
+save_freq:
+  desc: null
+  value: 5
+seq_size:
+  desc: null
+  value: 3
+split_file:
+  desc: null
+  value: /data/p302386/hecktor/monai_model/experiment_lynph_0/patients_split/image_split_x1.json
+test_dir:
+  desc: null
+  value: ./test_all
