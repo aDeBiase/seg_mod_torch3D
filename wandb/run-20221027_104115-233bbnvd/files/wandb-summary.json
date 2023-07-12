@@ -1,1 +1,0 @@
-{"epoch": 109, "training loss": 0.23923251052029063, "validation loss": 1.37184046125412, "dice val": 0.5520743131637573, "recall val": 0.6228020787239075, "precision val": 0.831508457660675, "npv val": 0.9795632362365723, "tversky val": 0.773167073726654, "_timestamp": 1666895690, "_runtime": 35615, "_step": 217, "time": 35325.25931882858}
