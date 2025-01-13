@@ -43,7 +43,7 @@ def read_split_file(path):
     
 
         
-split_file = "/data/p302386/hecktor/monai_model/experiment_1_new/split_train/image_split_x1.json"
+split_file = "/data/split_train/image_split_x1.json"
         
 split_data = read_split_file(split_file)
         
