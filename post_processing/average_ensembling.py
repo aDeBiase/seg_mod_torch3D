@@ -11,11 +11,11 @@ def read_split_file(path):
     return dict_from_file
 
 
-path_data = '/data/p302386/hecktor/umcg_data/UMCG_automseg/' #'/data/p302386/hecktor/data/resampled/'#'/data/p302386/hecktor/umcg_data/UMCG_automseg/' #"/data/p302386/hecktor/umcg_data/UMCG_14_17_resampled/"
-experiment_folder = '/data/p302386/hecktor/monai_model/experiment_def_new'
+path_data = '/data/DATA_automseg/' 
+experiment_folder = '/data/model/experiment_def'
 segmentation_folder = 'testing_images'
 
-split_file = os.path.join(experiment_folder, 'patient_split.json') #'/data/p302386/hecktor/monai_model/experiment_1_new/split_hecktor.txt' #'/data/p302386/hecktor/srcmodel/split_14_17/test_split.txt' #os.path.join(experiment_folder, 'patient_split.json')
+split_file = os.path.join(experiment_folder, 'patient_split.json') 
 split_file_read=read_split_file(split_file)
 patients_IDs=split_file_read["validate"]
 patients_IDs.sort()
