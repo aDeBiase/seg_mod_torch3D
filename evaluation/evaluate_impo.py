@@ -72,17 +72,17 @@ def read_split_file(path):
     return dict_from_file
     
 
-path_data = "/data/p302386/hecktor/umcg_data/UMCG_automsegB/" 
-experiment_folder = '/data/p302386/hecktor/monai_model/experiment_def_new'
-save_files_folder = '/data/p302386/hecktor/monai_model/documents/third_paper/' #'/data/p302386/hecktor/monai_model/ESTRO23/'
+path_data = "/data/DATA_automsegB/" 
+experiment_folder = '/data/model/experiment_def'
+save_files_folder = '/data/model/documents/' #'/data/p302386/hecktor/monai_model/ESTRO23/'
 segmentation_folder = 'testing_images/testing_images_original'
 multi_view_segmentation_folder = 'reconstructed_volumes/reconstructed_volumes_original'#'reconstructed_volumes'
 
-images_ = os.listdir('/data/p302386/hecktor/monai_model/experiment_def_new/reconstructed_volumes/reconstructed_volumes_original/')
+images_ = os.listdir('/data/model/experiment_def/reconstructed_volumes/reconstructed_volumes_original/')
 patient_IDs = [k.split('.')[0] for k in images_]
 patient_IDs.sort()
 
-original_resolution_file = "/data/p302386/hecktor/monai_model/documents/third_paper/original_resolution_ct.csv"
+original_resolution_file = "/data/documents/original_resolution_ct.csv"
 resolution_df = pd.read_csv(original_resolution_file)
 resolution_df = resolution_df.set_index('PatientID')
 
