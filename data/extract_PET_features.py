@@ -276,11 +276,11 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
 
     parser.add_argument('--dataset_dir', dest='dataset_dir',
-                        default="/data/p302386/hecktor/umcg_data/UMCG_automseg/", #default="/data/p302386/hecktor/data/resampled"
+                        default="/data/DATA_automseg/", #default="/data/ hecktor/data/resampled"
                         help='path of the dataset')
 
     parser.add_argument('--model_dir', dest='model_dir',
-                        default="/data/p302386/hecktor/monai_model/experiment_def2/", #
+                        default="/data/model/experiment_def2/", #
                         help='path of the model directory')
                         
     parser.add_argument('--type_gtv', dest='type_gtv',
