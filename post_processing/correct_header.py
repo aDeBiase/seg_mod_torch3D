@@ -7,15 +7,15 @@ import pandas as pd
 import os
 
 
-data_path = '/data/p302386/hecktor/umcg_data/UMCG_automseg/' #"/data/p302386/hecktor/umcg_data/UMCG_14_17_resampled/"# '/data/p302386/hecktor/data/resampled/'
+data_path = '/data/DATA_automseg/' 
 
-experiment_folder = '/data/p302386/hecktor/monai_model/experiment_def_new' #'/data/p302386/hecktor/monai_model/experiment_1_new'
+experiment_folder = '/data/model/experiment_def' 
 
-multi_view_segmentation_folder = 'reconstructed_volumes'#'reconstructed_volumes_validation'
-segmentation_folder = 'testing_images' #'testing_heckt'#'testing_images_3D' #'z_3/test'
- 
-pred_path = os.path.join(experiment_folder,segmentation_folder)#os.path.join(experiment_folder,segmentation_folder) #
-dest_path = pred_path #os.path.join(experiment_folder,'validation_images')
+multi_view_segmentation_folder = 'reconstructed_volumes'
+segmentation_folder = 'testing_images' 
+
+pred_path = os.path.join(experiment_folder,segmentation_folder)
+dest_path = pred_path 
 
 patientsID = os.listdir(pred_path)
 
@@ -23,7 +23,7 @@ AX = ['x','y','z'] #,'y','z'
 final_convert = False
 
 patientsID=  list(set([x.split('_')[0] for x in patientsID]))
-#patientsID=  list(set([x.split('_')[0].split('.')[0] for x in patientsID]))
+
 patientsID.sort()
 
 print (patientsID)
