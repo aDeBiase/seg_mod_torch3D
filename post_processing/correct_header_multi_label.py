@@ -6,15 +6,15 @@ import pandas as pd
 import os
 
 
-data_path = '/data/p302386/hecktor/umcg_data/UMCG_automseg_lymph/' #"/data/p302386/hecktor/umcg_data/UMCG_14_17_resampled/"# '/data/p302386/hecktor/data/resampled/'
+data_path = '/data/DATA_automseg_lymph/' 
 
-experiment_folder = '/data/p302386/hecktor/monai_model/lymph_optimization/trial2/' #'/data/p302386/hecktor/monai_model/experiment_1_new'
+experiment_folder = '/data/model/trial/' 
 
-multi_view_segmentation_folder = 'reconstructed_volumes'#'reconstructed_volumes_validation'
-segmentation_folder = 'test' #'testing_heckt'#'testing_images_3D' #'z_3/test'
+multi_view_segmentation_folder = 'reconstructed_volumes'
+segmentation_folder = 'test' 
  
-pred_path = os.path.join(experiment_folder,segmentation_folder)#os.path.join(experiment_folder,segmentation_folder) #
-dest_path = os.path.join(experiment_folder,'test_sep') #os.path.join(experiment_folder,'validation_images')
+pred_path = os.path.join(experiment_folder,segmentation_folder)
+dest_path = os.path.join(experiment_folder,'test_sep') 
 
 patientsID = os.listdir(pred_path)
 
