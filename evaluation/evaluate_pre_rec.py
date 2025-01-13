@@ -72,13 +72,13 @@ def read_split_file(path):
     return dict_from_file
     
 
-path_data = "/data/p302386/hecktor/umcg_data/UMCG_14_17_resampledB/" 
-experiment_folder = '/data/p302386/hecktor/monai_model/experiment_1_new'
-save_files_folder = '/data/p302386/hecktor/monai_model/documents/second_paper/' #'/data/p302386/hecktor/monai_model/ESTRO23/'
+path_data = "/data/data/DATA_resampledB/" 
+experiment_folder = '/data/model/experiment_1'
+save_files_folder = '/data/documents/' 
 segmentation_folder = 'testing_images/testing_images_original'
-multi_view_segmentation_folder = 'reconstructed_volumes/reconstructed_volumes_original'#'reconstructed_volumes'
+multi_view_segmentation_folder = 'reconstructed_volumes/reconstructed_volumes_original'
 
-images_ = os.listdir('/data/p302386/hecktor/monai_model/experiment_1_new/reconstructed_volumes/reconstructed_volumes_original/')
+images_ = os.listdir('/data/model/experiment/reconstructed_volumes/reconstructed_volumes_original/')
 
 patient_IDs = [k.split('.')[0] for k in images_]
 patient_IDs.sort()
